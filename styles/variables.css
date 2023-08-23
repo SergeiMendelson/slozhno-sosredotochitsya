@@ -1,7 +1,4 @@
-/*
-  Переменные для вашего проекта
-  и их переопределение под различные устройства
-*/
+
 
 :root {
   --bcg-color: #000028; 
@@ -13,3 +10,4 @@
   --text-description-color: #f1b2ce;
   --cover-image: url(/images/cover-image-dark.png);
 }
+ 
