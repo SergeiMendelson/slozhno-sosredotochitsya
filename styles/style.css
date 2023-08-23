@@ -144,17 +144,11 @@ button {
   padding: 10px;
 }
 
-.main__section-one,
-.main__section-two,
-.main__section-three,
-.main__section-four {
-  grid-template-columns: 375px;
-}
-
 /*---------grid section1-----------*/
 
 .main__section-one {
   grid-template-rows: repeat(5, auto);
+  grid-template-columns: 375px;
 }
 .main__section-one-title {
   grid-row: 1 / span 1;
@@ -178,6 +172,7 @@ button {
 
 .main__section-two {
   grid-template-rows: repeat(7, auto);
+  grid-template-columns: 375px;
 }
 .main__section-two-title {
   grid-row: 1 / span 1;
@@ -208,6 +203,7 @@ button {
 
 .main__section-three {
   grid-template-rows: repeat(12, auto);
+  grid-template-columns: 375px;
 }
 
 .main__section-three-title {
