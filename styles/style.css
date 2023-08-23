@@ -28,7 +28,7 @@ button {
   min-width: 375px;
   max-width: 768px;
   height: 668px;
-  background-image: url(/images/cover-image-dark.png);
+  background-image: var(--cover-image);
   background-position: center;
   background-size: cover;
 }
@@ -57,14 +57,14 @@ button {
   top: 0;
   right: 20px;
   border-width: 1px 1px 0 0;
-  border-color: var(--accent-color-frame);
+  border-color: var(--section-color-frame);
 }
 
 .decorative-frame::after {
   bottom: 0px;
   left: 0;
   border-width: 0 0 1px 1px;
-  border-color: var(--accent-color-frame);
+  border-color: var(--section-color-frame);
 }
 
 .header__decorated-element {
@@ -74,6 +74,7 @@ button {
   justify-self: end;
   margin-top: 13px;
   margin-right: 52px;
+  color: var(--section-color-frame);
 }
 
 .header__decorated-element::after {
@@ -95,7 +96,7 @@ button {
 }
 
 .header__theme-menu-list {
-  color: var(--accent-color-frame);
+  color: var(--section-color-frame);
   font-family: IBM Plex Mono;
   font-weight: 400;
   font-size: 18px;
@@ -109,15 +110,15 @@ button {
 
 .header__title {
   grid-column: 1 / span 4;
-  grid-row: 3 / span 1;
+  grid-row: 3 / span 1; 
   margin-top: -100px;
   margin-left: 10px;
-  color: var(--accent-color);
+  color: var(--title-color);
   font-family: IBM Plex Mono;
   font-weight: 700;
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   line-height: 86.5%;
-  text-shadow: 4px 4px 0px var(--accent-color-frame);
+  text-shadow: 4px 4px 0px var(--shadow-color);
 }
 
 .header__text {
@@ -126,12 +127,12 @@ button {
   width: 355px;
   height: 117px;
   margin: -16px 0 10px 12px;
-  color: var(--bcg-color);
+  color: var(--section-color-title-frame);
   font-family: IBM Plex Mono;
   font-weight: 700;
   font-size: 18px;
   line-height: 23.4px;
-  background: var(--accent-color-frame);
+  background: var(--section-color-frame);
 }
 /*------------------------main------------------------------------------*/
 
@@ -258,9 +259,6 @@ button {
 
 .main__section-four {
   grid-template-columns: 355px;
-}
-
-.main__section-four {
   grid-template-rows: repeat(6, auto);
   gap: 10px;
 }
@@ -293,7 +291,7 @@ button {
 .main__section-two-title,
 .main__section-one-title {
   width: 375px;
-  color: var(--accent-color-frame);
+  color: var(--section-color-title);
   font-family: IBM Plex Mono;
   font-weight: 700;
   font-size: 18px;
@@ -314,12 +312,12 @@ button {
 .main__section-three-title-with-colored-frame6,
 .main__section-four-title-with-colored-frame {
   width: 355px;
-  color: var(--bcg-color);
+  color: var(--section-color-title-frame);
   font-family: IBM Plex Mono;
   font-weight: 700;
   font-size: 18px;
   line-height: 23.4px;
-  background-color: var(--accent-color-frame);
+  background-color: var(--section-color-frame);
 }
 
 .main__section-one-description1,
@@ -333,7 +331,7 @@ button {
 .main__section-three-description5,
 .main__section-three-description6 {
   width: 375px;
-  color: #f1b2ce;
+  color:var(--text-description-color);
   font-family: IBM Plex Mono;
   font-weight: 400;
   font-size: 18px;
@@ -487,12 +485,12 @@ button {
   grid-row: 1 / span 1;
   margin-top: 288px;
   margin-left: 14px;
-  color: var(--accent-color);
+  color: var(--title-color);
   font-family: IBM Plex Mono;
   font-weight: 700;
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   line-height: 86.5%;
-  text-shadow: 4px 4px 0px var(--accent-color-frame);
+  text-shadow: 4px 4px 0px var(--shadow-color);
 }
 
 /*----------------------------@media 768px--------------------------*/

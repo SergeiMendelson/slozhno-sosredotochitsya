@@ -4,7 +4,12 @@
 */
 
 :root {
-  --accent-color: #db00ff;
-  --accent-color-frame:#ff0070;
-  --bcg-color: #000028;
+  --bcg-color: #000028; 
+  --title-color: #db00ff;
+  --shadow-color: #ff0070;
+  --section-color-frame: #ff0070;
+  --section-color-title: #ff0070;
+  --section-color-title-frame: #000028;
+  --text-description-color: #f1b2ce;
+  --cover-image: url(/images/cover-image-dark.png);
 }
