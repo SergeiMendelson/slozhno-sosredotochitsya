@@ -1,12 +1,11 @@
 :root {
-  --bcg-color: #000028; 
+  --bcg-color: #000028;
   --title-color: #db00ff;
   --shadow-color: #ff0070;
   --section-color-frame: #ff0070;
   --section-color-title: #ff0070;
   --section-color-title-frame: #000028;
   --text-description-color: #f1b2ce;
-  --color-hover:#FF007066;
+  --color-hover: #ff007066;
   --cover-image: url(/images/cover-image-dark.png);
 }
- 

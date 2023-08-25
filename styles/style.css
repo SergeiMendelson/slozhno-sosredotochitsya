@@ -108,6 +108,7 @@ button {
 
 .header__theme-menu-button {
   border: none;
+  padding: 0 13px;
   color: var(--section-color-title);
   background-color: transparent;
 }
@@ -117,10 +118,6 @@ button {
   color: var(--section-color-title);
   background-color: transparent;
   pointer-events: none;
-}
-
-.header__theme-menu-button {
-  padding: 0 13px;
 }
 
 .header__title {
