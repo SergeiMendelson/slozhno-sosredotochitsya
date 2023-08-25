@@ -1,5 +1,3 @@
-
-
 :root {
   --bcg-color: #000028; 
   --title-color: #db00ff;
@@ -8,6 +6,7 @@
   --section-color-title: #ff0070;
   --section-color-title-frame: #000028;
   --text-description-color: #f1b2ce;
+  --color-hover:#FF007066;
   --cover-image: url(/images/cover-image-dark.png);
 }
  

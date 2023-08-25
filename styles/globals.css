@@ -12,6 +12,8 @@ body {
   margin: 0 auto;
 }
 
+
+
 h1,
 h2,
 h3,
@@ -43,10 +45,29 @@ a {
 
 a {
   text-decoration: none;
-text-shadow: 2px 2px 0 var(--section-color-frame);
+  text-shadow: 2px 2px 0 var(--section-color-frame);
 }
 
 a:hover {
-    border-bottom: 1px solid var(--section-color-title);
+  border-bottom: 1px solid var(--text-description-color);
 }
 
+button:hover {
+  border: 1px solid var(--color-hover);
+}
+
+a:focus {
+  outline: none;
+}
+
+a:focus-visible {
+  border: 1px solid  var(--text-description-color);
+}
+
+button:focus {
+  outline: none;
+}
+
+button:focus-visible {
+  border-bottom: 1px solid var(--section-color-title);
+}

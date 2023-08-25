@@ -1,20 +1,8 @@
-/*
-  Специально для светлой темы при наличии класса.
-  Здесь окажутся стили, которые нужно переопределить принудительно,
-  переключая тему
-*/
 .header__decorated-element {
   display: none;
 }
 
-
-
 .page.theme_light {
-  /* сохраните этот селектор в приведённом виде.
-    Так стили написанные ниже будут иметь больший вес,
-    чем стили в медиазапросе предпочтений пользователя
-  */
-
   --bcg-color: #fff1f7;
   --title-color: #ffc2e6;
   --shadow-color: #ff0070;
@@ -22,6 +10,7 @@
   --section-color-title: #353430;
   --section-color-title-frame: #353430;
   --text-description-color: #353430;
+  --color-hover: #32312d66;
   --cover-image: url(/images/cover-image-light.png);
 }
 
@@ -37,18 +26,3 @@
     --cover-image: url(/images/cover-image-light.png);
   }
 }
-
-@media (prefers-color-scheme: light) {
-  .prefers-color-scheme .header__decorated-element {
-    display: none;
-  }
-
-
-}
-
-@media (prefers-color-scheme: dark) {
-  .prefers-color-scheme .header__decorated-element {
-    display: block;
-  }
-}
-
