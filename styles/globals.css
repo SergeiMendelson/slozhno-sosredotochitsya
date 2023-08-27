@@ -4,10 +4,19 @@
   box-sizing: border-box;
 }
 
-body {
+body,
+html {
+  height: 100%;
   margin: 0 auto;
+  font-family: IBM Plex Mono, Arial, Helvetica, sans-serif;
   min-inline-size: 375px;
   max-inline-size: 1440px;
+}
+
+button {
+  font-size: clamp(1.125rem, 1.125rem + 0vw, 1.125rem);
+  letter-spacing: 1px;
+  text-transform: lowercase;
 }
 
 h1,

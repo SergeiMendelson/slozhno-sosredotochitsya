@@ -11,7 +11,7 @@
   --section-color-title-frame: #353430;
   --text-description-color: #353430;
   --color-hover: #32312d66;
-  --cover-image: url(/images/cover-image-light.png);
+  --cover-image: url(../images/cover-image-light.png);
 }
 
 @media (prefers-color-scheme: light) {
@@ -23,6 +23,6 @@
     --section-color-title: #353430;
     --section-color-title-frame: #353430;
     --text-description-color: #353430;
-    --cover-image: url(/images/cover-image-light.png);
+    --cover-image: url(../images/cover-image-light.png);
   }
 }
