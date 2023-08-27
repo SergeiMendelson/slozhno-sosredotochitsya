@@ -72,7 +72,7 @@
   grid-column: 3 / span 2;
   grid-row: 1 / span 1;
   justify-self: end;
-  margin-top: 65px;
+  margin-top: 64px;
   padding: 0;
 }
 
@@ -85,7 +85,11 @@
 }
 
 .header__theme-menu-item {
-  margin-bottom: 13px;
+  margin-bottom: 15px;
+}
+
+.header__theme-menu-item:last-child {
+  margin-bottom: 0;
 }
 
 .header__theme-menu-button {
@@ -569,6 +573,7 @@
   .main__section3-description {
     align-self: start;
     font-size: clamp(1.125rem, 1.125rem + 0vw, 1.125rem);
+    line-height: 23.6px;
   }
 
   .main__section3-title_framed:nth-child(2) {
@@ -631,14 +636,14 @@
     grid-template-rows: repeat(4, auto);
     gap: 20px;
     max-width: 1100px;
-    margin-top: 3px;
+    margin-top: 2px;
     padding: 20px;
   }
 
   .main__section4-title_framed {
     grid-column: 1 / span 3;
     grid-row: 1 / span 1;
-    margin-top: 39px;
+    margin-top: 38px;
     font-size: clamp(1.125rem, 1.125rem + 0vw, 1.125rem);
   }
 
@@ -676,7 +681,7 @@
   .footer {
     width: 100%;
     max-width: 1100px;
-    margin-top: 41px;
+    margin-top: 39px;
   }
 
   .footer__title {
@@ -714,7 +719,7 @@
 
   .header__theme-menu-list {
     display: flex;
-    gap: 6px;
+    gap: 8px;
     font-size: clamp(1.125rem, 1.125rem + 0vw, 1.125rem);
   }
 
@@ -839,6 +844,7 @@
     grid-column: 1 / span 1;
     grid-row: 1 / span 3;
     align-self: start;
+    margin-top: 21px;
     font-size: clamp(1.125rem, 1.125rem + 0vw, 1.125rem);
   }
 
@@ -857,6 +863,7 @@
   .main__section3-description {
     align-self: start;
     font-size: clamp(1.125rem, 1.125rem + 0vw, 1.125rem);
+    line-height: 23.7px;
   }
 
   .main__section3-title_framed.font-weight_no-bold:nth-child(3) {
@@ -911,7 +918,7 @@
   /*-----------------------@media for section4 1024px--------------*/
   .main__section4 {
     max-width: 1440px;
-    margin-top: 6px;
+    margin-top: 2px;
   }
 
   .main__section4-title_framed {
@@ -952,7 +959,7 @@
   .footer {
     width: 100%;
     max-width: 1440px;
-    margin-top: 44px;
+    margin-top: 41px;
   }
 
   .footer__title {
