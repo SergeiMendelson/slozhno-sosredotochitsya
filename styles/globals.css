@@ -19,7 +19,6 @@ button {
   text-transform: lowercase;
 }
 
-h1,
 h2,
 h3,
 h4,
@@ -27,17 +26,13 @@ h5,
 h6,
 p {
   margin: 0;
+  font-size: clamp(1.125rem, 1.125rem + 0vw, 1.125rem);
 }
 
 ul {
   margin: 0;
   padding: 0;
   list-style: none;
-}
-
-picture {
-  margin: 0;
-  padding: 0;
 }
 
 button,
